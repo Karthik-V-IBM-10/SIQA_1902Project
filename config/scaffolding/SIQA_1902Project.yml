@@ -54,7 +54,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2035
-- serviceName: project.siqa_1902.integrations:JMS_JNDI_SSL
+- serviceName: project.siqa_1902.integrations:JMSFlowTest
   packages:
   - name: SIQA_1902Project
     version: "1.0"
@@ -74,6 +74,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2035
+- serviceName: project.siqa_1902.integrations:JMS_JNDI_SSL
+  packages:
+  - name: SIQA_1902Project
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
 - serviceName: project.siqa_1902.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_1902Project
